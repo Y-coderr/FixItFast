@@ -25,7 +25,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.ImageView;
 
-public class galileo_design_activity extends Activity {
+public class SignupActivity extends Activity {
 
 	
 	private View _bg__galileo_design_ek2;
@@ -80,7 +80,7 @@ public class galileo_design_activity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_Signup);
+		setContentView(R.layout.activity_signup);
 
 		
 		_bg__galileo_design_ek2 = (View) findViewById(R.id._bg__galileo_design_ek2);
@@ -109,10 +109,6 @@ public class galileo_design_activity extends Activity {
 		_bg__depth_6__frame_0_ek5 = (View) findViewById(R.id._bg__depth_6__frame_0_ek5);
 		_bg__depth_7__frame_0_ek5 = (View) findViewById(R.id._bg__depth_7__frame_0_ek5);
 		password = (TextView) findViewById(R.id.password);
-		_bg__depth_6__frame_1_ek1 = (View) findViewById(R.id._bg__depth_6__frame_1_ek1);
-		_bg__depth_7__frame_0_ek7 = (View) findViewById(R.id._bg__depth_7__frame_0_ek7);
-		vector___0 = (ImageView) findViewById(R.id.vector___0);
-		_bg__depth_8__frame_0_ek1 = (View) findViewById(R.id._bg__depth_8__frame_0_ek1);
 		_bg__depth_1__frame_5_ek1 = (View) findViewById(R.id._bg__depth_1__frame_5_ek1);
 		_bg__depth_2__frame_0_ek7 = (View) findViewById(R.id._bg__depth_2__frame_0_ek7);
 		_bg__depth_3__frame_0_ek7 = (View) findViewById(R.id._bg__depth_3__frame_0_ek7);
@@ -121,10 +117,6 @@ public class galileo_design_activity extends Activity {
 		_bg__depth_6__frame_0_ek7 = (View) findViewById(R.id._bg__depth_6__frame_0_ek7);
 		_bg__depth_7__frame_0_ek9 = (View) findViewById(R.id._bg__depth_7__frame_0_ek9);
 		confirm_password = (TextView) findViewById(R.id.confirm_password);
-		_bg__depth_6__frame_1_ek3 = (View) findViewById(R.id._bg__depth_6__frame_1_ek3);
-		_bg__depth_7__frame_0_ek11 = (View) findViewById(R.id._bg__depth_7__frame_0_ek11);
-		vector___0_ek1 = (ImageView) findViewById(R.id.vector___0_ek1);
-		_bg__depth_8__frame_0_ek3 = (View) findViewById(R.id._bg__depth_8__frame_0_ek3);
 		_bg__depth_1__frame_6_ek1 = (View) findViewById(R.id._bg__depth_1__frame_6_ek1);
 		_bg__depth_2__frame_0_ek9 = (View) findViewById(R.id._bg__depth_2__frame_0_ek9);
 		_bg__depth_3__frame_0_ek9 = (View) findViewById(R.id._bg__depth_3__frame_0_ek9);
