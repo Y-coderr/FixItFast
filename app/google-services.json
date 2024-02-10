@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046229682596",
+    "project_id": "fixitfast-d0b77",
+    "storage_bucket": "fixitfast-d0b77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046229682596:android:d134f2803e402a8de05931",
+        "android_client_info": {
+          "package_name": "com.example.fixitfast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP6Erl4OsgUOcsK5YLBrLti1lfNsULq9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
