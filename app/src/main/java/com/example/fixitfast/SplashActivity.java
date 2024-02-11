@@ -20,6 +20,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 startActivity(iHome);
+                finish();
             }
         },4000);
 

@@ -43,4 +43,13 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation(platform("com.google.firebase:firebase-bom:32.7.2"))
     implementation("com.google.firebase:firebase-analytics")
+
+    //RxJava
+    implementation ("io.reactivex.rxjava3:rxjava:3.1.2")
+    implementation ("io.reactivex.rxjava3:rxandroid:3.0.0")
+
+    //FireBase UI
+    implementation("com.firebaseui:firebase-ui-auth:8.0.0")
+    implementation("com.firebaseui:firebase-ui-firestore:8.0.0")
+
 }

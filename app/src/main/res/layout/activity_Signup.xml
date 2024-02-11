@@ -1,4 +1,4 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<ScrollView android:id="@+id/galileo_design" 
 		android:layout_width="match_parent"
@@ -37,7 +37,7 @@
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="match_parent"
-						android:layout_height="786dp" />
+						android:layout_height="735dp" />
 
 					<TextView
 						android:layout_width="match_parent"
@@ -61,7 +61,7 @@
 							android:background="@drawable/_bg__depth_1__frame_2_ek1_shape"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="390dp"
+							android:layout_width="match_parent"
 							android:layout_height="80dp" />
 
 
@@ -147,21 +147,15 @@
 												android:layout_height="wrap_content"
 												>
 
-												<View   android:id="@+id/_bg__depth_7__frame_0_ek1"
-													android:background="@drawable/_bg__depth_7__frame_0_ek1_shape"
-													 android:layout_marginStart="0dp"
-													android:layout_marginTop="0dp"
-													android:layout_width="78.84dp"
-													android:layout_height="24dp" />
-
-												<TextView
+												<EditText
 													android:id="@+id/username"
-													android:layout_width="93.44dp"
-													android:layout_height="28.6dp"
+													android:layout_width="300dp"
+													android:layout_height="35dp"
 													android:layout_marginLeft="0dp"
-													android:layout_marginTop="0dp"
+													android:layout_marginTop="-5dp"
 													android:background="#FF28384C"
-													android:text="@string/username_string"
+													android:hint="User Name"
+													android:textColorHint="#9FA8DA"
 													android:textColor="#9FA8DA"
 													android:textSize="16sp" />
 
@@ -191,7 +185,7 @@
 							android:background="@drawable/_bg__depth_1__frame_3_ek1_shape"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="390dp"
+							android:layout_width="match_parent"
 							android:layout_height="80dp" />
 
 
@@ -284,16 +278,18 @@
 													android:layout_width="43.7dp"
 													android:layout_height="24dp" />
 
-												<TextView
+												<EditText
 													android:id="@+id/email"
-													android:layout_width="58.3dp"
-													android:layout_height="28.6dp"
+													android:layout_width="300dp"
+													android:layout_height="35dp"
 													android:layout_marginLeft="0dp"
-													android:layout_marginTop="0dp"
+													android:layout_marginTop="-5dp"
 													android:background="#FF28384C"
-													android:text="@string/email_string"
+													android:hint="Email"
 													android:textColor="#9FA8DA"
-													android:textSize="16sp" />
+													android:textColorHint="#9FA8DA"
+													android:textSize="16sp"
+													tools:ignore="TouchTargetSizeCheck" />
 
 											</RelativeLayout>
 
@@ -321,7 +317,7 @@
 							android:background="@drawable/_bg__depth_1__frame_4_ek1_shape"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="390dp"
+							android:layout_width="match_parent"
 							android:layout_height="80dp" />
 
 
@@ -414,16 +410,19 @@
 													android:layout_width="74.28dp"
 													android:layout_height="24dp" />
 
-												<TextView
+												<EditText
 													android:id="@+id/password"
-													android:layout_width="88.88dp"
-													android:layout_height="28.6dp"
+													android:layout_width="300dp"
+													android:layout_height="35dp"
 													android:layout_marginLeft="0dp"
-													android:layout_marginTop="0dp"
+													android:layout_marginTop="-5dp"
 													android:background="#FF28384C"
-													android:text="@string/password_string"
+													android:hint="Password"
+													android:inputType="textPassword"
 													android:textColor="#9FA8DA"
-													android:textSize="16sp" />
+													android:textColorHint="#9FA8DA"
+													android:textSize="16sp"
+													tools:ignore="TouchTargetSizeCheck" />
 
 											</RelativeLayout>
 
@@ -479,7 +478,7 @@
 							android:background="@drawable/_bg__depth_1__frame_5_ek1_shape"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="390dp"
+							android:layout_width="match_parent"
 							android:layout_height="80dp" />
 
 
@@ -572,17 +571,18 @@
 													android:layout_width="142.75dp"
 													android:layout_height="24dp" />
 
-												<TextView
-													android:id="@+id/confirm_password"
-													android:layout_width="157.35dp"
-													android:layout_height="28.6dp"
+												<EditText
+													android:id="@+id/cpassword"
+													android:layout_width="300dp"
+													android:layout_height="35dp"
 													android:layout_marginLeft="0dp"
-													android:layout_marginTop="0dp"
+													android:layout_marginTop="-5dp"
+													android:inputType="textPassword"
 													android:background="#FF28384C"
-													android:text="@string/confirm_password_string"
+													android:hint="Confirm Password"
+													android:textColorHint="#9FA8DA"
 													android:textColor="#9FA8DA"
 													android:textSize="16sp" />
-
 											</RelativeLayout>
 
 										</RelativeLayout>
@@ -610,72 +610,18 @@
 							android:background="@drawable/_bg__depth_1__frame_6_ek1_shape"
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="390dp"
+							android:layout_width="match_parent"
 							android:layout_height="64dp" />
 
+						<Button
+							android:layout_width="300dp"
+							android:layout_height="match_parent"
+							android:layout_marginTop="5dp"
+							android:layout_marginLeft="45dp"
+							android:background="@drawable/btn_bg"
+							android:text="Sign up"
+							/>
 
-						<RelativeLayout android:id="@+id/depth_2__frame_0_ek8"
-							android:layout_marginTop="12dp"
-							android:layout_marginStart="16dp"
-							android:layout_width="wrap_content"
-							android:layout_height="wrap_content"
-							>
-
-							<View
-								android:id="@+id/_bg__depth_2__frame_0_ek9"
-								android:layout_width="358dp"
-								android:layout_height="40dp"
-								android:layout_marginStart="0dp"
-								android:layout_marginTop="0dp"
-								android:background="@drawable/_bg__depth_2__frame_0_ek9_shape" />
-
-
-							<RelativeLayout android:id="@+id/depth_3__frame_0_ek8"
-								android:layout_marginTop="9.5dp"
-								android:layout_marginStart="152.09dp"
-								android:layout_width="wrap_content"
-								android:layout_height="wrap_content"
-								>
-
-								<View   android:id="@+id/_bg__depth_3__frame_0_ek9"
-									android:background="@drawable/_bg__depth_3__frame_0_ek9_shape"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="0dp"
-									android:layout_width="53.81dp"
-									android:layout_height="21dp" />
-
-
-								<RelativeLayout android:id="@+id/depth_4__frame_0_ek8"
-									android:layout_marginTop="0dp"
-									android:layout_marginStart="0dp"
-									android:layout_width="wrap_content"
-									android:layout_height="wrap_content"
-									>
-
-									<View   android:id="@+id/_bg__depth_4__frame_0_ek9"
-										android:background="@drawable/_bg__depth_4__frame_0_ek9_shape"
-										 android:layout_marginStart="0dp"
-										android:layout_marginTop="0dp"
-										android:layout_width="53.81dp"
-										android:layout_height="21dp" />
-
-									<TextView
-										android:id="@+id/sign_up"
-										android:layout_width="67.21dp"
-										android:layout_height="25.4dp"
-										android:layout_marginLeft="0dp"
-										android:layout_marginTop="0dp"
-										android:background="#F4C753"
-										android:text="@string/sign_up_string"
-										android:textColor="#0277BD"
-										android:textSize="14sp"
-										android:textStyle="bold" />
-
-								</RelativeLayout>
-
-							</RelativeLayout>
-
-						</RelativeLayout>
 
 					</RelativeLayout>
 
@@ -685,4 +631,4 @@
 		</RelativeLayout>
 
 	</ScrollView>
-</HorizontalScrollView>
+</RelativeLayout>
