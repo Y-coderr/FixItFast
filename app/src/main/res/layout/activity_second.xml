@@ -13,25 +13,25 @@
         android:background="@color/black"
         app:srcCompat="@drawable/logo"/>
 
-   <RelativeLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="500dp">
 
 
-       <RelativeLayout
-           android:layout_width="match_parent"
-           android:layout_height="80dp"
-           android:layout_marginTop="75dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="75dp">
 
-           <Button
-               android:layout_width="400dp"
-               android:layout_height="60dp"
-               android:layout_marginLeft="30dp"
-               android:layout_marginRight="30dp"
-               android:text="sign in With Phone"
-               android:background="@drawable/btn_bg"/>
-       </RelativeLayout>
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="sign in With Phone"
+                android:background="@drawable/btn_bg"/>
+        </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
@@ -47,6 +47,6 @@
         </RelativeLayout>
 
 
-   </RelativeLayout>
+    </RelativeLayout>
 
 </RelativeLayout>
