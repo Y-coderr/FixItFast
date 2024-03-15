@@ -7,8 +7,8 @@
         android:layout_height="match_parent" >
 
         <RelativeLayout android:id="@+id/content_container"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
 
 
 
@@ -26,12 +26,13 @@
                     android:layout_height="wrap_content"
                     >
 
-                    <View   android:id="@+id/_bg__depth_0__frame_0_ek1"
-                        android:background="@drawable/_bg__depth_0__frame_0_ek1_shape"
+                    <View
+                        android:id="@+id/_bg__depth_0__frame_0_ek1"
+                        android:layout_width="match_parent"
+                        android:layout_height="786dp"
                         android:layout_marginStart="0dp"
                         android:layout_marginTop="0dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="735dp" />
+                        android:background="@drawable/_bg__depth_0__frame_0_ek1_shape" />
 
                     <TextView
                         android:layout_width="match_parent"
